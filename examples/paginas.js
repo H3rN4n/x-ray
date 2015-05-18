@@ -5,8 +5,8 @@
 var mongoose    = require('mongoose');
 var vet = require('../models/vet.server.model');
 
-//mongoose.connect('mongodb://mascoteros:mascoteros@ds061371.mongolab.com:61371/heroku_app35295284');
-mongoose.connect('mongodb://localhost:27017/mascoteros-dev');
+mongoose.connect('mongodb://mascoteros:mascoteros@ds061371.mongolab.com:61371/heroku_app35295284');
+//mongoose.connect('mongodb://localhost:27017/mascoteros-dev');
 
 var xray = require('..');
 
